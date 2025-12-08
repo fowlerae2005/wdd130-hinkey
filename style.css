@@ -1,30 +1,91 @@
 body{
-    background-color: lightblue;
-    max-width: 1400px;
+    background-color: #F6F8FA;
+    max-width: 1300px;
     margin: 0 auto;
     font-family: "Segoe UI";
+    padding-bottom: 45px;
 }
 .logo{
     width: 150px;
     border: 3px solid black;
     border-radius: 20px;
-    position: absolute;
-    top: 45px;
-    right: 100px;
 }
 nav ul{
-    height: 100px;
+    height: 150px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     list-style: none;
     margin-top: 50px;
     align-items: center;
     font-size: 30px;
     border: 2px solid black;
     border-radius: 10px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
 }
-.grid2{
+a:visited {
+    color: white;
+}
+#grid2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px grey;
+    background-color: #3B82F6;
+    font-size: 25px;
+}
+.card img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
+#paragraph{
+    font-size: 30px;
+    text-align: center;
+}
+#paragraph{
+    margin: 0 auto;
+    max-width: 1000px;
+    align-items: center;
+    font-size: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #CBD5E1;
+    padding-bottom: 10px;
+}
+#purpose{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 25px;
+}
+footer {
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#footer .footer-links {
+    margin-bottom: 10px;
+}
+footer a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+#footer a:hover {
+    text-decoration: underline;
 }

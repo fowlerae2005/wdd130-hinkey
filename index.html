@@ -1,39 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>IronMap</title>
 </head>
+
 <body>
     <header>
-        <div id="logo">
-            <img class="logo" src="images/logo.png" alt="Ironmap logo">
         <nav>
             <ul id="grid1">
-                <li class="griditem1"><a href="">Home</a></li>
-                <li class="griditem1"><a href="">Explore</a></li>
-                <li class="griditem1"><a href="">About Page</a></li>
+                <li class="griditem1"><a href="index.html">Home</a></li>
+                <li class="griditem1"><a href="explore.html">Explore</a></li>
+                <li class="griditem1"><a href="about.html">About Page</a></li>
+                <div id="logo">
+                    <img class="logo" src="images/logo.png" alt="Ironmap logo">
+                </div>
             </ul>
         </nav>
     </header>
-    <main> <!-- Main content section -->
-        <div id="statement">IronMap — Find Your Gym. Forge Your Future.</div>
-        IronMap connects users with gyms and personalized workout routines that align with their fitness level and individual goals. It helps beginners and experienced athletes find the best training environment.
-        <section id="grid2">
-            <img class="griditem2" src="images/weights.png" alt="weights"> 
-            <p>Finding the right gym not only can motivate you towards your goals but allows you to achieve your goal in the most effective way possible. No wasted money, and no wasted time.</p>
-            <img class="griditem2" src="images/mats.png" alt="mats"> 
+    <p id="paragraph">
+        IronMap — Find Your Gym. Forge Your Future.
+        <br>
+        <br>
+        IronMap connects users with gyms and personalized workout routines that align with their
+        fitness level and individual goals. It helps beginners and experienced athletes find the best
+        training environment.
+    </p>
+    <section id="grid2">
+        <div class="card">
+            <img class="griditem2" src="images/weights.png" alt="weights">
+            <p>Finding the right gym not only can motivate you towards your goals but allows you to achieve your goal in
+                the most effective way possible. No wasted money, and no wasted time.</p>
+        </div>
+
+        <div class="card">
+            <img class="griditem2" src="images/mats.png" alt="mats">
             <p>There is a gym for everyone who just wants to stay in shape and for those who want to get shredded.</p>
-        </section>
-        Now lets find the gym that best suits you and the goal that you have!
+        </div>
+    </section>
+    <div id="purpose">
+    Now lets find the gym that best suits you and the goal that you have!
+    </div>
     </main>
     <footer>
-            <a href="#">Home</a>
-            <a href="#">Explore</a>
-            <a href="#">Abourt Page</a>
-            Copyright Hinkey 2025 &copy;
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a>
+        <a href="about.html">About Page</a>
+        <p>Copyright Hinkey 2025 &copy;</p>
     </footer>
 </body>
+
 </html>
